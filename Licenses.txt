@@ -1,7 +1,6 @@
 Image Reference
 
-Item name:logo.png
-License type:MIT
-Author/Attribution: justpurple 2020, retrieved 5 May 2020,
-Source Website: https://images.app.goo.gl/3Ugnq9t1XZn4LiA97
-Additional License page url: Non
+Item name: logo.png
+License type: Jeries Bathish
+Source Website: https://images.app.goo.gl/2yffwxz1nLG8fa6i9
+Additional License page url: https://support.google.com/legal/answer/4558992?hl=zh-Hans&ref_topic=4558877
