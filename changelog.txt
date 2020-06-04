@@ -1,29 +1,29 @@
-Date: May 10
+#Date: May 10
 Configure Google Firebase Authentication, and follow the Google API documentation to test run the sample code to verify whether the configuration is successful and the function call method.
 
-Day 2 (May 13)
+#Date: May 13
 Configure Google Firebase Storage, and try to run the relevant sample code about storage get and put in the Google API document.
 
-Day 3 (May 17)
+#Date: May 17
 Configure the secret key of Google Map, and try to successfully run a piece of code that can display Google Map. In short, try to run GoogleMap first.
 
-Day 4 (May 20)
+#Date: May 20
 Try to add Marker on the Google Map and get the click event, that is, you want to update the location information of the school, which is achieved by clicking a location on the map. This day is to debug these functions. , Successfully get the clicked position, and re-add the Marker according to the position and delete the Marker from the old position
 
-Day 5 (May 25)
+#Date: May 25
 Debug JSON related functions, import related packages, try to convert a School to JSONObject, or convert a JSONOBject to School.
 
-Day 6 (May 28)
+#Date: May 28
 The previous day was to debug JSON for a single School. Today is to play with JSONArray, which is to use a JSONArray to install multiple Schools, which is easy to replace with a string and put it on Firebase. And how to change from a string to a JSONArray, and recover multiple Schools from this JSONArray
 
-Day 7 (May 30)
+#Date: May 30
 Study the control layout of ConstraintLayout, such as who aligns who, who is on who, who is under who, how to center, how to top
 
-Day 8 (June 1)
+#Date: June 1
 Integrate the achievements of the previous days to achieve registration, login, and initial school information writing, and realize the display of Shcools by MainActivity.
 
-Day 9 (June 2)
+#Date: June 2
 Realize the map display in SchoolActivity, display the information, click the map to update the location information, and return to MainActivity, and update to Firebase
 
-Day 10 (June 3)
+#Date: June 3
 Joint debugging and joint test, fix various bugs, fine-tune the UI of the interface
