@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".SignInActivity">
+
+	<TextView
+		android:id="@+id/emailTV"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="30dp"
+		android:layout_marginStart="10dp"
+		android:layout_marginEnd="10dp"
+		android:text="@string/e_mail"
+		android:textAllCaps="false"
+		android:textAlignment="center"
+		android:textColor="@color/colorRed"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="@id/passwordTV"
+		app:layout_constraintBaseline_toBaselineOf="@id/emailET" />
+
+	<EditText
+		android:id="@+id/emailET"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:textSize="18sp"
+		android:autofillHints="@string/prompt_email"
+		android:hint="@string/prompt_email"
+		android:inputType="textEmailAddress"
+		android:selectAllOnFocus="true"
+		app:layout_constraintStart_toEndOf="@id/passwordTV"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintEnd_toEndOf="parent" />
+
+	<TextView
+		android:id="@+id/passwordTV"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:textSize="18sp"
+		android:layout_marginTop="30dp"
+		android:layout_marginBottom="10dp"
+		android:layout_marginStart="10dp"
+		android:layout_marginEnd="10dp"
+		android:text="@string/password"
+		android:textAllCaps="false"
+		android:textColor="@color/colorRed"
+		android:textStyle="bold"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/emailTV" />
+
+	<EditText
+		android:id="@+id/passwordET"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:autofillHints="@string/prompt_password"
+		android:hint="@string/prompt_password"
+		android:imeActionLabel="@string/action_sign_in_short"
+		android:imeOptions="actionDone"
+		android:inputType="textPassword"
+		android:selectAllOnFocus="true"
+		android:textSize="18sp"
+		app:layout_constraintStart_toEndOf="@id/passwordTV"
+		app:layout_constraintTop_toTopOf="@id/passwordTV"
+		app:layout_constraintBottom_toBottomOf="@id/passwordTV"
+		app:layout_constraintEnd_toEndOf="parent" />
+
+	<Button
+		android:id="@+id/signInBtn"
+		android:layout_width="300dp"
+		android:layout_margin="30sp"
+		android:layout_height="wrap_content"
+		android:background="@drawable/round"
+		android:text="@string/sign_in"
+		android:textColor="@color/white"
+		android:textAllCaps="false"
+		android:onClick="onSignIn"
+		android:layout_marginBottom="30dp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/passwordET"/>
+
+	<Button
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:layout_margin="30dp"
+		android:background="@drawable/round"
+		android:text="@string/sign_up"
+		android:textColor="@color/white"
+		android:textAllCaps="false"
+		android:onClick="onSignUp"
+		android:layout_marginBottom="30dp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/signInBtn"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

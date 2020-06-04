@@ -1,0 +1,28 @@
+<resources>
+	<string name="app_name">DrivingSchool</string>
+	<string name="logo">Logo</string>
+	<string name="e_mail">E-Mail</string>
+	<string name="password">Password</string>
+	<string name="sign_in">Sign In</string>
+	<string name="sign_up">Sign Up</string>
+	<string name="emai_regx">^([a-zA-Z0-9]*[-_]?[a-zA-Z0-9]+)*@([a-zA-Z0-9]*[-_]?[a-zA-Z0-9]+)+[\\\\.][A-Za-z]{2,3}([\\\\.][A-Za-z]{2})?$</string>
+	<string name="title_activity_login">Sign in</string>
+	<string name="prompt_email">Email</string>
+	<string name="prompt_password">Password</string>
+	<string name="action_sign_in">Sign in or register</string>
+	<string name="action_sign_in_short">Sign in</string>
+	<string name="welcome">"Welcome !"</string>
+	<string name="invalid_username">Not a valid username</string>
+	<string name="invalid_password">Password must be >5 characters</string>
+	<string name="login_failed">"Login failed"</string>
+	<string name="confirm">Confirm</string>
+	<string name="name">Name</string>
+	<string name="description">Description</string>
+	<string name="contact_person">Contact Person</string>
+	<string name="phone">Phone</string>
+	<string name="address">Address</string>
+	<string name="postcode">Postcode</string>
+	<string name="APIKey">AIzaSyBd9Dx8rRSuJNkZ4h_eC0PskpaHIk7P7bs</string>
+	<string name="cancel">Cancel</string>
+	<string name="save">Save</string>
+</resources>

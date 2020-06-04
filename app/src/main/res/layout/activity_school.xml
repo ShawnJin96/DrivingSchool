@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".SchoolActivity">
+
+	<TextView
+		android:id="@+id/nameTV"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:text="@string/name"
+		android:textColor="@color/colorAccent"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintBaseline_toBaselineOf="@id/nameET" />
+
+	<EditText
+		android:id="@+id/nameET"
+		android:inputType="text"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="7dp"
+		android:layout_marginTop="2dp"
+		android:layout_marginEnd="7dp"
+		android:textSize="18sp"
+		app:layout_constraintStart_toEndOf="@id/contactTV"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		tools:ignore="Autofill,LabelFor" />
+
+	<TextView
+		android:id="@+id/descriptionTV"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:text="@string/description"
+		android:textColor="@color/colorAccent"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintBaseline_toBaselineOf="@id/descriptionET" />
+
+	<EditText
+		android:id="@+id/descriptionET"
+		android:inputType="none"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="7dp"
+		android:layout_marginTop="2dp"
+		android:layout_marginEnd="7dp"
+		android:textSize="18sp"
+		app:layout_constraintTop_toBottomOf="@id/nameET"
+		app:layout_constraintStart_toEndOf="@id/contactTV"
+		app:layout_constraintEnd_toEndOf="parent"
+		tools:ignore="Autofill,LabelFor" />
+
+	<TextView
+		android:id="@+id/contactTV"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:text="@string/contact_person"
+		android:textColor="@color/colorAccent"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintBaseline_toBaselineOf="@id/contactET" />
+
+	<EditText
+		android:id="@+id/contactET"
+		android:inputType="none"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="7dp"
+		android:layout_marginTop="2dp"
+		android:layout_marginEnd="7dp"
+		android:textSize="18sp"
+		app:layout_constraintStart_toEndOf="@id/contactTV"
+		app:layout_constraintTop_toBottomOf="@id/descriptionET"
+		app:layout_constraintEnd_toEndOf="parent"
+		tools:ignore="Autofill,LabelFor" />
+
+	<TextView
+		android:id="@+id/phoneTV"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:text="@string/phone"
+		android:textColor="@color/colorAccent"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintBaseline_toBaselineOf="@id/phoneET" />
+
+	<EditText
+		android:id="@+id/phoneET"
+		android:inputType="phone"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="7dp"
+		android:layout_marginTop="2dp"
+		android:layout_marginEnd="7dp"
+		android:textSize="18sp"
+		app:layout_constraintStart_toEndOf="@id/contactTV"
+		app:layout_constraintTop_toBottomOf="@id/contactET"
+		app:layout_constraintEnd_toEndOf="parent"
+		tools:ignore="Autofill,LabelFor" />
+
+	<TextView
+		android:id="@+id/addressTV"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:text="@string/address"
+		android:textColor="@color/colorAccent"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintBaseline_toBaselineOf="@id/addressET" />
+
+	<EditText
+		android:id="@+id/addressET"
+		android:inputType="phone"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="7dp"
+		android:layout_marginTop="2dp"
+		android:layout_marginEnd="7dp"
+		android:textSize="18sp"
+		app:layout_constraintStart_toEndOf="@id/contactTV"
+		app:layout_constraintTop_toBottomOf="@id/phoneET"
+		app:layout_constraintEnd_toEndOf="parent"
+		tools:ignore="Autofill,LabelFor" />
+
+	<TextView
+		android:id="@+id/postcodeTV"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:text="@string/postcode"
+		android:textColor="@color/colorAccent"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintBaseline_toBaselineOf="@id/postcodeET" />
+
+	<EditText
+		android:id="@+id/postcodeET"
+		android:inputType="phone"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="7dp"
+		android:layout_marginTop="2dp"
+		android:layout_marginEnd="7dp"
+		android:textSize="18sp"
+		app:layout_constraintStart_toEndOf="@id/contactTV"
+		app:layout_constraintTop_toBottomOf="@id/addressET"
+		app:layout_constraintEnd_toEndOf="parent"
+		tools:ignore="Autofill,LabelFor" />
+
+	<androidx.fragment.app.FragmentContainerView
+		android:id="@+id/map"
+		android:name="com.google.android.gms.maps.SupportMapFragment"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginStart="7dp"
+		android:layout_marginTop="2dp"
+		android:layout_marginEnd="7dp"
+		android:layout_marginBottom="2dp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/postcodeET"
+		app:layout_constraintBottom_toBottomOf="parent">
+	</androidx.fragment.app.FragmentContainerView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+
+		<item name="android:actionBarStyle">@style/DrivingSchoolActionBarStyle</item>
+		<item name="actionBarStyle">@style/DrivingSchoolActionBarStyle</item>
+	</style>
+
+	<style name="DrivingSchoolActionBarStyle" parent="@style/Widget.AppCompat.ActionBar">
+		<item name="android:background">@color/alert_blue</item>
+		<item name="background">@color/alert_blue</item>
+	</style>
+
+</resources>
